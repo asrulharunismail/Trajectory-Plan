@@ -134,7 +134,7 @@ for it=1:MaxIt
     
     % Plot Solution
     figure(1);
-    PlotSolution(OptSol.Sol,Instance);
+    Plotting(OptSol.Sol,Instance);
     pause(0.01);
 
 end
